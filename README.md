@@ -1,6 +1,6 @@
-# **Simpler Go Home Test - Product Management API**
+# **Product Management API**
 
-Welcome to the **Simpler Go Home Test** project! This repository contains a Go-based RESTful API that allows for managing products. The API is built using **Fiber**, **GORM**, and **SQLite**, and includes complete **CRUD** (Create, Read, Update, Delete) functionality along with pagination support.
+Welcome to the **Product Management API** project! This repository contains a Go-based RESTful API that allows for managing products. The API is built using **Fiber**, **GORM**, and **SQLite**, and includes complete **CRUD** (Create, Read, Update, Delete) functionality along with pagination support.
 
 ## **Features**
 
@@ -16,19 +16,19 @@ Welcome to the **Simpler Go Home Test** project! This repository contains a Go-b
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/tkasidakis1996/simpler-go-home-test.git
-   cd simpler-go-home-test
+   git clone https://github.com/tkasidakis1996/products-management-api
+   cd products-management-api
 
 2. **Build the Docker image**:
    ```bash
-   sudo docker build -t simpler-go-home-test .
+   sudo docker build -t products-management-api .
 
 ## **How to Run the API**
 
 Once the Docker image is built, you can run the API by creating a container named `products-api`:
 
   ```bash
-  sudo docker run -d --name products-api -p 8000:8000 simpler-go-home-test
+  sudo docker run -d --name products-api -p 8000:8000 products-management-api
   ```
 
 
